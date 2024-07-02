@@ -31,3 +31,5 @@ Make sure to run the project in `IIS Express` for swagger and testing purposes
 -Not using Entity Framework validators to verify the data is correct and won't cause issues
 
 -Not using wrappers to pass the data
+
+-The need to manually create in the SQL database the admin role and manually assign it in the Identity table for roles to work

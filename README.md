@@ -21,3 +21,13 @@ Make sure to change the `DatabaseConnection string` in the appsettings.json for 
 In the NuGET package manager console make sure to add the migrations and update the database so that the project can connect to it
 
 Make sure to run the project in `IIS Express` for swagger and testing purposes
+
+## Known issues
+
+-Using an MVC controller instead of an Onion arquitecture (Still rest API tho)
+
+-Having code in Program.cs that could have been in an injectable service
+
+-Not using Entity Framework validators to verify the data is correct and won't cause issues
+
+-Not using wrappers to pass the data

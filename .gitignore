@@ -1,0 +1,6 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/UsersWebAPI/.vs/UsersWebAPI
+/UsersWebAPI/UsersWebAPI/bin/Debug/net8.0
